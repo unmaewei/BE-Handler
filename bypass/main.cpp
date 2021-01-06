@@ -10,6 +10,7 @@ void driver_thread( void* context )
 {
 
 	// wait for battleye (ooga booga)
+	//https://www.youtube.com/watch?v=qdy0cZf5loU
 	while ( !/*get_base*/( "BEDaisy" ) )
 	{
 		io::dbgprint( "waiting for BEDaisy..." );
