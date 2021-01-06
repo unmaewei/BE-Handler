@@ -9,8 +9,8 @@ using namespace driver;
 void driver_thread( void* context )
 {
 
-	// wait for battleye
-	while ( !/*nt_find_module*/( "BEDaisy" ) )
+	// wait for battleye (ooga booga)
+	while ( !/*get_base*/( "BEDaisy" ) )
 	{
 		io::dbgprint( "waiting for BEDaisy..." );
 
