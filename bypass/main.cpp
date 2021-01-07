@@ -21,7 +21,7 @@ void driver_thread( void* context )
 		KeDelayExecutionThread(KernelMode, TRUE, &time);
 	}
 
-	// credits to rakes thread this this
+	// credits to rakes thread this this and vergillius project, 0xC8 is list entrys
 	uint64_t target_process_callbacks = reinterpret_cast< uint64_t >( *PsProcessType ) + 0xC8;
 	uint64_t target_thread_callbacks = reinterpret_cast< uint64_t >( *PsThreadType ) + 0xC8;
 
