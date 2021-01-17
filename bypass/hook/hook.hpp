@@ -1,5 +1,3 @@
-// this could really be main.hpp but w/e
-
 #pragma
 #include "../defs.hpp"
 #include "../io/io.hpp"
